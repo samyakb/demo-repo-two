@@ -9,3 +9,4 @@ REPOSITORY="samyakb/demo-repo-two"
 remote_repo="https://${GITHUB_ACTOR}:${BOT_TOKEN}@github.com/${REPOSITORY}.git"
 
 echo "${remote_repo}"
+git push "${remote_repo}" HEAD:main --force-with-lease
