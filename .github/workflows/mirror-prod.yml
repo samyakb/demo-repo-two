@@ -24,3 +24,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Mirror to repo
         run: sh ./update-mirror.sh
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_NAME: ${{ secrets.BOT_NAME }}
