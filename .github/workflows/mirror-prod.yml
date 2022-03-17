@@ -27,8 +27,8 @@ jobs:
       # Setup git user
       - name: Setup git user
         run: |
-            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
+            git config --local user.email "samyak.b@mtechzilla.com"
+            git config --local user.name "Samyak Bakliwal"
 
       # Runs a single command using the runners shell
       - name: Mirror to repo
@@ -36,4 +36,4 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           #BOT_NAME: ${{ secrets.BOT_NAME }}
-          BOT_NAME: "github-actions[bot]"
+          BOT_NAME: "samyakb"
