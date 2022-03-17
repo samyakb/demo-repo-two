@@ -35,4 +35,5 @@ jobs:
         run: sh ./update-mirror.sh
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          BOT_NAME: ${{ secrets.BOT_NAME }}
+          #BOT_NAME: ${{ secrets.BOT_NAME }}
+          BOT_NAME: "github-actions[bot]"
