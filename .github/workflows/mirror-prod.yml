@@ -29,6 +29,7 @@ jobs:
         run: |
             git config --local user.email "samyak.b@mtechzilla.com"
             git config --local user.name "Samyak Bakliwal"
+            echo ".github/" >> .git/info/exclude
 
       # Runs a single command using the runners shell
       - name: Mirror to repo
